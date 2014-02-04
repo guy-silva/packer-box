@@ -1,0 +1,21 @@
+[About]
+
+This will generate a headless ubuntu server precise64 '.box' ready to be used in virtualbox (by vagrant) and with chef as the provisioning tool 
+
+[Installation]
+
+assuming you are on a linux or mac environment:
+
+install 
+-virtualbox
+-packer
+-vagrant
+
+clone this repository
+
+
+[Usage]
+
+run "create_box.sh"
+
+It will create a box under "build" folder, after that you can run your vagrant file (you should create one) and point to 'precise64-rails-dev' box
